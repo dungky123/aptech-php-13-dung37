@@ -1,0 +1,85 @@
+.page{
+    background-color: darkslateblue;
+    
+}
+.menu ul {
+   
+    width: 250px;
+    padding: 0;
+    list-style-type: none;
+    text-align: left;
+  }
+  .menu li {
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 1em;
+  }
+  .menu li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+  }
+  .menu ul li {
+    position: relative;
+   }
+   .menu .sub-menu {
+    position: absolute;
+    left: 250px;
+    top: 0;
+   }
+   .menu .sub-menu {
+    position: absolute;
+    left: 250px;
+    top: 0;
+    display: none;
+   }
+   .menu li:hover .sub-menu {
+    display: block;
+   }
+   .khong-gach{
+     color: crimson;
+   }
+   .gach{
+    text-decoration: line-through;
+   }
+   .off{
+    display: block;
+    width: 387px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #1a9cb8;
+    border: 1px solid #1a9cb8;
+    text-transform: uppercase;
+   }
+   .nen{
+     background-color: darkslateblue;
+     color: #e8e8e8;
+   }
+   .page-of{
+     color: #e8e8e8;
+   }
+   .dung{
+     background-color: coral;
+   }
+   input[type="text"] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 4px;
+    outline:none;
+    padding: 12px 14px;
+  }
+  input[type="text"]:focus{
+    width:500px; 
+    
+}
+.thut-hang{
+  text-indent: 20px;
+}
+.dũng{
+  color: #e8e8e8;
+}
